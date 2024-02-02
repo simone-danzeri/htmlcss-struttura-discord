@@ -15,6 +15,10 @@ header{
     min-height: 50px;
 }
 
+.light-blue{
+    padding: 15px 0px;
+}
+
 .light-blue .blue{
     display: flex;
     justify-content: center;

@@ -15,7 +15,7 @@ header{
     min-height: 50px;
 }
 
-.light-blue{
+.light-blue .blue{
     display: flex;
     justify-content: center;
     padding: 10px 0px;
@@ -52,3 +52,17 @@ nav :last-child{
     border-left: 3px dashed black;
 }
 
+.blue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #00008B;
+    min-height: 350px;
+}
+
+.pink{ 
+    width: 500px;
+    height: 250px;
+    background-color: #ee82ee;
+}

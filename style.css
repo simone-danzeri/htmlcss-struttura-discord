@@ -114,3 +114,25 @@ nav :last-child{
     width: 30%;
     min-height: 250px;
 }
+
+.pink-box{
+    background-color: #ffc0cb;
+    width: 30%;
+    min-height: 250px;
+    border-right: 3px dashed black;
+}
+
+.blue-box{
+    background-color: #1e90ff;
+    width: 70%; 
+    min-height: 250px;
+}
+
+.green{
+    min-height: 450px;
+    background-color: #228b22;
+}
+
+.green-box{
+    background-color: #d3d3d3;
+}

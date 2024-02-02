@@ -66,3 +66,44 @@ nav :last-child{
     height: 250px;
     background-color: #ee82ee;
 }
+
+/*-------------------
+    CONTAINER
+-------------------*/
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+/*-------------------
+    MAIN
+-------------------*/
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.left-box{
+    background-color: #1e90ff;
+    width: 70%;
+    border-right: 3px dashed black;
+    min-height: 250px;
+}
+
+.right-box{
+    background-color: #ffc0cb;
+    width: 30%;
+    min-height: 250px;
+}

@@ -1,0 +1,54 @@
+/*-------------------
+    RESET
+-------------------*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+    HEADER
+-------------------*/
+header{
+    background-color: #ADD8E6;
+    min-height: 50px;
+}
+
+.light-blue{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #DAA520;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+nav :first-child{
+    border-right: 3px dashed black;
+}
+
+nav :nth-child(2){
+    text-align: center;
+}
+
+nav :last-child{
+    text-align: right;
+    border-left: 3px dashed black;
+}
+

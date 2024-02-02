@@ -136,3 +136,45 @@ nav :last-child{
 .green-box{
     background-color: #d3d3d3;
 }
+
+/*-------------------
+    FOOTER
+-------------------*/
+
+.row-3{
+    display: flex;
+    justify-content: center;
+    padding: 2px 0px;
+    background-color: #23272a;
+    border-bottom-color: #eeeeee;
+}
+
+.red-box{
+    background-color: #f08080;
+    width: 20%;
+    border-right: 3px dashed black;
+    min-height: 350px;
+}
+.matrioska-box{
+    display: flex;
+    justify-content: center;
+    background-color: #20b2aa;
+    width: 80%;
+    min-height: 350px;
+}
+
+.column{
+    width: 25%;
+}
+
+.column1{
+    border-right: 1px dashed #ffffff;
+}
+
+.column2{
+    border-right: 1px dashed #ffffff;
+}
+
+.column3{
+    border-right: 1px dashed #ffffff;
+}

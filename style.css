@@ -87,6 +87,13 @@ nav :last-child{
     padding: 10px 0px;
 }
 
+.row-2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: #d3d3d3;
+}
+
 .box{
     display: flex;
     flex-wrap: wrap;
